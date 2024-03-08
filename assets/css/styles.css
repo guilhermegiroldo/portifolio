@@ -94,7 +94,6 @@ img {
 /*=============== HEADER & NAV ===============*/
 .header {
   position: fixed;
-  background-color: var(--container-color);
   top: 0;
   left: 0;
   width: 100%;
@@ -121,9 +120,22 @@ img {
   column-gap: 1.5rem;
 }
 
+.nav__link {
+  color: var(--title-color);
+  transition: all .3s ease;
+}
+
 /* Active link */
+.active-link,
+.nav__link:hover {
+  color: var(--first-color);
+}
 
 /*=============== HOME ===============*/
+.home__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
 
 /* Home animation */
 
