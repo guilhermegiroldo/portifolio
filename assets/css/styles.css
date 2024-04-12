@@ -206,7 +206,31 @@ img {
 
 /* Home animation */
 @keyframes animate__before {
-  
+  0% {
+    border-radius: 65% 35% 29% 71% / 55% 30% 70% 45% ;
+  }
+
+  50% {
+    border-radius: 21% 79% 50% 50% / 21% 50% 50% 79% ;
+  }
+
+  100% {
+    border-radius: 65% 35% 29% 71% / 55% 30% 70% 45% ;
+  }
+}
+
+@keyframes animate__after {
+  0% {
+    border-radius: 21% 79% 50% 50% / 21% 50% 50% 79% ;
+  }
+
+  50% {
+    border-radius: 65% 35% 29% 71% / 55% 30% 70% 45% ;
+  }
+
+  100% {
+    border-radius: 21% 79% 50% 50% / 21% 50% 50% 79% ;
+  }
 }
 
 /*=============== BUTTON ===============*/
